@@ -1,3 +1,3 @@
 #TOPPAGE
 
-<img src="/images/toppage.jpg" width="50%">
+<img src="/images/toppage.png" width="50%">
