@@ -1,0 +1,56 @@
+.about-container-logo img {
+  display: block;
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+  margin: 1.8rem auto;
+}
+
+.about-container-logo p {
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.about-container-plf-dtl img {
+  display: block;
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+  margin: 1.8rem auto;
+}
+
+.about-container-plf-dtl h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.about-container-plf-dtl span {
+  font-size: 0.9rem;
+  opacity: 60%;
+  padding-left: 0.6rem;
+}
+
+.about-container-plf-dtl p {
+  text-align: center;
+  padding: 0 2rem;
+}
+
+/* タブレット以上 */
+@media screen and (min-width: 640px) {
+  /* .pc-about {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .subtitle-container {
+    display: flex;
+  } */
+
+  .about {
+    padding: 0 4rem;
+  }
+
+  .about img {
+    width: 24rem;
+  }
+}

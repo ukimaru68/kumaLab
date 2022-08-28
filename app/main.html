@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <!-- Meta information -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="webページ制作、ロゴ制作、アイコン作成" />
+
+    <!-- Web page title -->
+    <title>kumaLab</title>
+
+    <!-- Utilities -->
+
+    <!-- URLの正規化 -->
+    <link rel="canonical" href="" />
+
+    <!-- サイトアイコンの指定 -->
+    <link rel="icon" href="画像URL" sizes="16x16" type="image/png" />
+    <link rel="icon" href="画像URL" sizes="32x32" type="image/png" />
+    <link rel="icon" href="画像URL" sizes="48x48" type="image/png" />
+    <link rel="icon" href="画像URL" sizes="62x62" type="image/png" />
+
+    <!-- スマホ用アイコンの作成（150*150） -->
+    <link rel="apple-touch-icon-precomposed" href="images/iconTop.JPG" />
+
+    <!-- 電話番号やメールアドレスの変換設定 -->
+    <meta name="format-detection" content="email=no,telephone=no,address=no" />
+
+    <!-- Third party styles -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <!-- Original styles -->
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/loading.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+
+  <body>
+    <!-- Loading (loading.css) -->
+    <div id="loading">
+      <div class="spinner"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+      <a href="./main.html"
+        ><img src="./images/iconKuma.jpg" alt="kumaLab" class="header-logo"
+      /></a>
+
+      <!-- header sp menu open -->
+      <div class="sp-menu-btn1" id="head">
+        <span class="material-icons" id="menu-open">menu</span>
+      </div>
+
+      <!-- header sp menu close -->
+      <div class="sp-menu-btn2">
+        <span class="material-icons" id="menu-close">close</span>
+        <nav class="sp-menu-nav">
+          <ul class="sp-menu-dtl">
+            <li>
+              <a href="./about.html"><span>ABOUT</span>はじめての方へ</a>
+            </li>
+            <li>
+              <a href="./service.html"><span>SERVICE</span>サービス内容</a>
+            </li>
+            <li>
+              <a href="./works.html"><span>WORKS</span>制作実績</a>
+            </li>
+            <li>
+              <a href="./contact.html"><span>CONTACT</span>お問い合わせ</a>
+            </li>
+          </ul>
+          <div class="spacer-md"></div>
+          <a href="./main.html"
+            ><img
+              src="./images/iconKuma.jpg"
+              alt="スマホメニュー用下部アイコン"
+          /></a>
+        </nav>
+      </div>
+
+      <!-- header pc menu -->
+      <div class="pc-menu">
+        <nav>
+          <ul>
+            <li>
+              <a href="./about.html"><span>ABOUT</span>はじめての方へ</a>
+            </li>
+            <li>
+              <a href="./service.html"><span>SERVICE</span>サービス内容</a>
+            </li>
+            <li>
+              <a href="./works.html"><span>WORKS</span>制作実績</a>
+            </li>
+            <li>
+              <a href="./contact.html"><span>CONTACT</span>お問い合わせ</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- kumaLab mainpage top (main.css) -->
+    <section class="main spacer-lg spacer-plus">
+      <div class="main-container">
+        <div class="main-contents">
+          <div class="main-contents-image">
+            <img src="./images/main.jpg" alt="kumaLab-メインのイメージ画像" />
+          </div>
+
+          <!-- observer.js -->
+          <div class="main-contents-fuwa spacer-md">
+            <h1>kumaLab</h1>
+            <div class="spacer-md"></div>
+            <p>
+              くまらぼとは、くまらぼとは、くまらぼとは、くまらぼとは、くまらぼとは、くまらぼとは、くまらぼとは、くまらぼとは、くまらぼとは、くまらぼとは、くまらぼとは、くまらぼとは、くまらぼとは、くまらぼとは、くまらぼとは、くまらぼとは、！
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- kumaLab mainpage service -->
+    <section class="service spacer-lg">
+      <div class="subtitle-container"><h2>SERVICE</h2></div>
+      <div class="service-container">
+        <ul id="service-contents">
+          <li>
+            <img src="images/icon01.jpg" alt="" />
+            <p>webページ制作</p>
+          </li>
+          <li>
+            <img src="images/icon02.jpg" alt="" />
+            <p>ロゴ制作</p>
+          </li>
+          <li>
+            <img src="images/icon03.jpg" alt="" />
+            <p>アイコン制作</p>
+          </li>
+        </ul>
+        <!-- js to rendo -->
+        <span class="material-icons" id="prev">chevron_left</span>
+        <span class="material-icons" id="next">chevron_right</span>
+      </div>
+      <nav class="carousel-nav"></nav>
+    </section>
+
+    <!-- kumaLab mainpage works -->
+    <section class="works spacer-lg">
+      <div class="subtitle-container"><h2>WORKS</h2></div>
+      <div class="works-container">
+        <div class="works-container-item">
+          <img src="./images/icon01.jpg" alt="" />
+          <span>icon</span>
+          <p>てってれー</p>
+        </div>
+        <div class="works-container-item">
+          <img src="./images/icon02.jpg" alt="" />
+          <span>web page</span>
+          <p>ちゃんちゃんちゃん</p>
+        </div>
+      </div>
+      <div class="works-more spacer-md">
+        <a href="./works.html">M O R E</a>
+      </div>
+    </section>
+
+    <!-- kumaLab mainpage contact -->
+    <section class="contact spacer-md">
+      <a href="./contact.html">
+        <div class="contact-container">
+          <div class="contact-container-image">
+            <div class="contact-container-text">
+              <h3>CONTACT</h3>
+              <span>ー</span>
+              <p>お問い合わせはこちら</p>
+            </div>
+          </div>
+        </div>
+      </a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer spacer-md">
+      <!-- <div class="footer-line"></div> -->
+      <div class="footer-menu">
+        <div class="footer-menu-nav">
+          <ul>
+            <li>
+              <p>CONTENTS</p>
+            </li>
+            <li>
+              <a href="./about.html"><span>ABOUT</span>はじめての方へ</a>
+            </li>
+            <li>
+              <a href="./service.html"><span>SERVICE</span>サービス内容</a>
+            </li>
+            <li>
+              <a href="./works.html"><span>WORKS</span>制作実績</a>
+            </li>
+            <li>
+              <a href="./contact.html"><span>CONTACT</span>お問い合わせ</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-menu-nav footer-plus">
+          <ul>
+            <li>
+              <p>OFFICIAL SNS</p>
+            </li>
+            <li>
+              <a href="#"><span>ー </span>Instagram</a>
+            </li>
+            <li>
+              <a href="#"><span>ー </span>Twitter</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-copy">
+        <small>&copy; 2022 kumaLab.</small>
+      </div>
+    </footer>
+
+    <!-- js -->
+    <script>
+      {
+        window.onload = function () {
+          const spinner = document.getElementById('loading');
+          spinner.classList.add('loaded');
+        };
+      }
+    </script>
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/observer.js"></script>
+    <script type="module" src="js/carousel.js"></script>
+  </body>
+</html>
